@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E297D6F7164D353C00DC8287 /* app-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E297D6F5164D353C00DC8287 /* app-icon.png */; };
+		E297D6F8164D353C00DC8287 /* app-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E297D6F6164D353C00DC8287 /* app-icon@2x.png */; };
+		E297D6FB164D431E00DC8287 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E297D6F9164D377700DC8287 /* Default.png */; };
+		E297D6FD164D434200DC8287 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E297D6FC164D434200DC8287 /* Default@2x.png */; };
+		E297D6FF164D435E00DC8287 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E297D6FE164D435E00DC8287 /* Default-568h@2x.png */; };
+		E297D703164D442200DC8287 /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = E297D700164D442200DC8287 /* launch.png */; };
+		E297D704164D442200DC8287 /* launch3gs.png in Resources */ = {isa = PBXBuildFile; fileRef = E297D701164D442200DC8287 /* launch3gs.png */; };
+		E297D705164D442200DC8287 /* launch5.png in Resources */ = {isa = PBXBuildFile; fileRef = E297D702164D442200DC8287 /* launch5.png */; };
+		E297D707164D49BC00DC8287 /* BorgenCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E297D706164D49BC00DC8287 /* BorgenCell.xib */; };
+		E297D70A164D4B7000DC8287 /* BorgenCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E297D709164D4B7000DC8287 /* BorgenCell.m */; };
+		E297D70C164DABE400DC8287 /* cellimage.png in Resources */ = {isa = PBXBuildFile; fileRef = E297D70B164DABE400DC8287 /* cellimage.png */; };
+		E297D70E164DABF800DC8287 /* cellimage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E297D70D164DABF700DC8287 /* cellimage@2x.png */; };
+		E2F5C025164960F100C18A33 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F5C024164960F100C18A33 /* UIKit.framework */; };
+		E2F5C027164960F100C18A33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F5C026164960F100C18A33 /* Foundation.framework */; };
+		E2F5C029164960F100C18A33 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F5C028164960F100C18A33 /* CoreGraphics.framework */; };
+		E2F5C02F164960F200C18A33 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2F5C02D164960F200C18A33 /* InfoPlist.strings */; };
+		E2F5C031164960F200C18A33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F5C030164960F200C18A33 /* main.m */; };
+		E2F5C035164960F200C18A33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F5C034164960F200C18A33 /* AppDelegate.m */; };
+		E2F5C03E164960F200C18A33 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F5C03D164960F200C18A33 /* FirstViewController.m */; };
+		E2F5C045164960F200C18A33 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F5C044164960F200C18A33 /* SecondViewController.m */; };
+		E2F5C04C164960F200C18A33 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2F5C04A164960F200C18A33 /* FirstViewController.xib */; };
+		E2F5C04F164960F200C18A33 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2F5C04D164960F200C18A33 /* SecondViewController.xib */; };
+		E2F5C057164960F200C18A33 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F5C056164960F200C18A33 /* SenTestingKit.framework */; };
+		E2F5C058164960F200C18A33 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F5C024164960F100C18A33 /* UIKit.framework */; };
+		E2F5C059164960F200C18A33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F5C026164960F100C18A33 /* Foundation.framework */; };
+		E2F5C061164960F200C18A33 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2F5C05F164960F200C18A33 /* InfoPlist.strings */; };
+		E2F5C064164960F200C18A33 /* BorgenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F5C063164960F200C18A33 /* BorgenTests.m */; };
+		E2F5C0701649613000C18A33 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F5C06E1649613000C18A33 /* ThirdViewController.m */; };
+		E2F5C0711649613000C18A33 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2F5C06F1649613000C18A33 /* ThirdViewController.xib */; };
+		E2F5C074164961BC00C18A33 /* third.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F5C072164961BB00C18A33 /* third.png */; };
+		E2F5C075164961BC00C18A33 /* third@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F5C073164961BC00C18A33 /* third@2x.png */; };
+		E2F5C0781649632800C18A33 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F5C0761649632800C18A33 /* camera.png */; };
+		E2F5C0791649632800C18A33 /* camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F5C0771649632800C18A33 /* camera@2x.png */; };
+		E2F5C07C1649635F00C18A33 /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F5C07A1649635F00C18A33 /* list.png */; };
+		E2F5C07D1649635F00C18A33 /* list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F5C07B1649635F00C18A33 /* list@2x.png */; };
+		E2F5C0851649656600C18A33 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F5C0831649656600C18A33 /* DetailViewController.m */; };
+		E2F5C0861649656600C18A33 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2F5C0841649656600C18A33 /* DetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2F5C05A164960F200C18A33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2F5C017164960F100C18A33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2F5C01F164960F100C18A33;
+			remoteInfo = Borgen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E297D6F5164D353C00DC8287 /* app-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon.png"; sourceTree = "<group>"; };
+		E297D6F6164D353C00DC8287 /* app-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon@2x.png"; sourceTree = "<group>"; };
+		E297D6F9164D377700DC8287 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		E297D6FC164D434200DC8287 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		E297D6FE164D435E00DC8287 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		E297D700164D442200DC8287 /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
+		E297D701164D442200DC8287 /* launch3gs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch3gs.png; sourceTree = "<group>"; };
+		E297D702164D442200DC8287 /* launch5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch5.png; sourceTree = "<group>"; };
+		E297D706164D49BC00DC8287 /* BorgenCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BorgenCell.xib; sourceTree = "<group>"; };
+		E297D708164D4B6F00DC8287 /* BorgenCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BorgenCell.h; sourceTree = "<group>"; };
+		E297D709164D4B7000DC8287 /* BorgenCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BorgenCell.m; sourceTree = "<group>"; };
+		E297D70B164DABE400DC8287 /* cellimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cellimage.png; sourceTree = "<group>"; };
+		E297D70D164DABF700DC8287 /* cellimage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cellimage@2x.png"; sourceTree = "<group>"; };
+		E2F5C020164960F100C18A33 /* Borgen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Borgen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2F5C024164960F100C18A33 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E2F5C026164960F100C18A33 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E2F5C028164960F100C18A33 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E2F5C02C164960F200C18A33 /* Borgen-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Borgen-Info.plist"; sourceTree = "<group>"; };
+		E2F5C02E164960F200C18A33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E2F5C030164960F200C18A33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E2F5C032164960F200C18A33 /* Borgen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Borgen-Prefix.pch"; sourceTree = "<group>"; };
+		E2F5C033164960F200C18A33 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E2F5C034164960F200C18A33 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E2F5C03C164960F200C18A33 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		E2F5C03D164960F200C18A33 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		E2F5C043164960F200C18A33 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		E2F5C044164960F200C18A33 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		E2F5C04B164960F200C18A33 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
+		E2F5C04E164960F200C18A33 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
+		E2F5C055164960F200C18A33 /* BorgenTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BorgenTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2F5C056164960F200C18A33 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E2F5C05E164960F200C18A33 /* BorgenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BorgenTests-Info.plist"; sourceTree = "<group>"; };
+		E2F5C060164960F200C18A33 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E2F5C062164960F200C18A33 /* BorgenTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BorgenTests.h; sourceTree = "<group>"; };
+		E2F5C063164960F200C18A33 /* BorgenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BorgenTests.m; sourceTree = "<group>"; };
+		E2F5C06D1649613000C18A33 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		E2F5C06E1649613000C18A33 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		E2F5C06F1649613000C18A33 /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		E2F5C072164961BB00C18A33 /* third.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = third.png; path = ../../third.png; sourceTree = "<group>"; };
+		E2F5C073164961BC00C18A33 /* third@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "third@2x.png"; path = "../../third@2x.png"; sourceTree = "<group>"; };
+		E2F5C0761649632800C18A33 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		E2F5C0771649632800C18A33 /* camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera@2x.png"; sourceTree = "<group>"; };
+		E2F5C07A1649635F00C18A33 /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
+		E2F5C07B1649635F00C18A33 /* list@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list@2x.png"; sourceTree = "<group>"; };
+		E2F5C0821649656500C18A33 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		E2F5C0831649656600C18A33 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		E2F5C0841649656600C18A33 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2F5C01D164960F100C18A33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F5C025164960F100C18A33 /* UIKit.framework in Frameworks */,
+				E2F5C027164960F100C18A33 /* Foundation.framework in Frameworks */,
+				E2F5C029164960F100C18A33 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2F5C051164960F200C18A33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F5C057164960F200C18A33 /* SenTestingKit.framework in Frameworks */,
+				E2F5C058164960F200C18A33 /* UIKit.framework in Frameworks */,
+				E2F5C059164960F200C18A33 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2F5C015164960F100C18A33 = {
+			isa = PBXGroup;
+			children = (
+				E2F5C02A164960F200C18A33 /* Borgen */,
+				E2F5C05C164960F200C18A33 /* BorgenTests */,
+				E2F5C023164960F100C18A33 /* Frameworks */,
+				E2F5C021164960F100C18A33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2F5C021164960F100C18A33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2F5C020164960F100C18A33 /* Borgen.app */,
+				E2F5C055164960F200C18A33 /* BorgenTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2F5C023164960F100C18A33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2F5C024164960F100C18A33 /* UIKit.framework */,
+				E2F5C026164960F100C18A33 /* Foundation.framework */,
+				E2F5C028164960F100C18A33 /* CoreGraphics.framework */,
+				E2F5C056164960F200C18A33 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2F5C02A164960F200C18A33 /* Borgen */ = {
+			isa = PBXGroup;
+			children = (
+				E2F5C033164960F200C18A33 /* AppDelegate.h */,
+				E2F5C034164960F200C18A33 /* AppDelegate.m */,
+				E2F5C03C164960F200C18A33 /* FirstViewController.h */,
+				E2F5C03D164960F200C18A33 /* FirstViewController.m */,
+				E2F5C043164960F200C18A33 /* SecondViewController.h */,
+				E2F5C044164960F200C18A33 /* SecondViewController.m */,
+				E2F5C0821649656500C18A33 /* DetailViewController.h */,
+				E2F5C0831649656600C18A33 /* DetailViewController.m */,
+				E2F5C0841649656600C18A33 /* DetailViewController.xib */,
+				E2F5C06D1649613000C18A33 /* ThirdViewController.h */,
+				E2F5C06E1649613000C18A33 /* ThirdViewController.m */,
+				E2F5C04A164960F200C18A33 /* FirstViewController.xib */,
+				E2F5C04D164960F200C18A33 /* SecondViewController.xib */,
+				E2F5C06F1649613000C18A33 /* ThirdViewController.xib */,
+				E2F5C02B164960F200C18A33 /* Supporting Files */,
+				E297D706164D49BC00DC8287 /* BorgenCell.xib */,
+				E297D708164D4B6F00DC8287 /* BorgenCell.h */,
+				E297D709164D4B7000DC8287 /* BorgenCell.m */,
+			);
+			path = Borgen;
+			sourceTree = "<group>";
+		};
+		E2F5C02B164960F200C18A33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E297D70B164DABE400DC8287 /* cellimage.png */,
+				E297D6FE164D435E00DC8287 /* Default-568h@2x.png */,
+				E297D6FC164D434200DC8287 /* Default@2x.png */,
+				E297D70D164DABF700DC8287 /* cellimage@2x.png */,
+				E297D6F9164D377700DC8287 /* Default.png */,
+				E2F5C072164961BB00C18A33 /* third.png */,
+				E2F5C073164961BC00C18A33 /* third@2x.png */,
+				E2F5C0761649632800C18A33 /* camera.png */,
+				E297D6F5164D353C00DC8287 /* app-icon.png */,
+				E297D6F6164D353C00DC8287 /* app-icon@2x.png */,
+				E2F5C0771649632800C18A33 /* camera@2x.png */,
+				E2F5C07A1649635F00C18A33 /* list.png */,
+				E2F5C07B1649635F00C18A33 /* list@2x.png */,
+				E2F5C02C164960F200C18A33 /* Borgen-Info.plist */,
+				E2F5C02D164960F200C18A33 /* InfoPlist.strings */,
+				E2F5C030164960F200C18A33 /* main.m */,
+				E297D700164D442200DC8287 /* launch.png */,
+				E297D701164D442200DC8287 /* launch3gs.png */,
+				E297D702164D442200DC8287 /* launch5.png */,
+				E2F5C032164960F200C18A33 /* Borgen-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E2F5C05C164960F200C18A33 /* BorgenTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2F5C062164960F200C18A33 /* BorgenTests.h */,
+				E2F5C063164960F200C18A33 /* BorgenTests.m */,
+				E2F5C05D164960F200C18A33 /* Supporting Files */,
+			);
+			path = BorgenTests;
+			sourceTree = "<group>";
+		};
+		E2F5C05D164960F200C18A33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2F5C05E164960F200C18A33 /* BorgenTests-Info.plist */,
+				E2F5C05F164960F200C18A33 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2F5C01F164960F100C18A33 /* Borgen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2F5C067164960F200C18A33 /* Build configuration list for PBXNativeTarget "Borgen" */;
+			buildPhases = (
+				E2F5C01C164960F100C18A33 /* Sources */,
+				E2F5C01D164960F100C18A33 /* Frameworks */,
+				E2F5C01E164960F100C18A33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Borgen;
+			productName = Borgen;
+			productReference = E2F5C020164960F100C18A33 /* Borgen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2F5C054164960F200C18A33 /* BorgenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2F5C06A164960F200C18A33 /* Build configuration list for PBXNativeTarget "BorgenTests" */;
+			buildPhases = (
+				E2F5C050164960F200C18A33 /* Sources */,
+				E2F5C051164960F200C18A33 /* Frameworks */,
+				E2F5C052164960F200C18A33 /* Resources */,
+				E2F5C053164960F200C18A33 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2F5C05B164960F200C18A33 /* PBXTargetDependency */,
+			);
+			name = BorgenTests;
+			productName = BorgenTests;
+			productReference = E2F5C055164960F200C18A33 /* BorgenTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2F5C017164960F100C18A33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Tom Offringa";
+			};
+			buildConfigurationList = E2F5C01A164960F100C18A33 /* Build configuration list for PBXProject "Borgen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E2F5C015164960F100C18A33;
+			productRefGroup = E2F5C021164960F100C18A33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2F5C01F164960F100C18A33 /* Borgen */,
+				E2F5C054164960F200C18A33 /* BorgenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2F5C01E164960F100C18A33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F5C02F164960F200C18A33 /* InfoPlist.strings in Resources */,
+				E2F5C04C164960F200C18A33 /* FirstViewController.xib in Resources */,
+				E2F5C04F164960F200C18A33 /* SecondViewController.xib in Resources */,
+				E2F5C0711649613000C18A33 /* ThirdViewController.xib in Resources */,
+				E2F5C074164961BC00C18A33 /* third.png in Resources */,
+				E2F5C075164961BC00C18A33 /* third@2x.png in Resources */,
+				E2F5C0781649632800C18A33 /* camera.png in Resources */,
+				E2F5C0791649632800C18A33 /* camera@2x.png in Resources */,
+				E2F5C07C1649635F00C18A33 /* list.png in Resources */,
+				E2F5C07D1649635F00C18A33 /* list@2x.png in Resources */,
+				E2F5C0861649656600C18A33 /* DetailViewController.xib in Resources */,
+				E297D6F7164D353C00DC8287 /* app-icon.png in Resources */,
+				E297D6F8164D353C00DC8287 /* app-icon@2x.png in Resources */,
+				E297D6FB164D431E00DC8287 /* Default.png in Resources */,
+				E297D6FD164D434200DC8287 /* Default@2x.png in Resources */,
+				E297D6FF164D435E00DC8287 /* Default-568h@2x.png in Resources */,
+				E297D703164D442200DC8287 /* launch.png in Resources */,
+				E297D704164D442200DC8287 /* launch3gs.png in Resources */,
+				E297D705164D442200DC8287 /* launch5.png in Resources */,
+				E297D707164D49BC00DC8287 /* BorgenCell.xib in Resources */,
+				E297D70C164DABE400DC8287 /* cellimage.png in Resources */,
+				E297D70E164DABF800DC8287 /* cellimage@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2F5C052164960F200C18A33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F5C061164960F200C18A33 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E2F5C053164960F200C18A33 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2F5C01C164960F100C18A33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F5C031164960F200C18A33 /* main.m in Sources */,
+				E2F5C035164960F200C18A33 /* AppDelegate.m in Sources */,
+				E2F5C03E164960F200C18A33 /* FirstViewController.m in Sources */,
+				E2F5C045164960F200C18A33 /* SecondViewController.m in Sources */,
+				E2F5C0701649613000C18A33 /* ThirdViewController.m in Sources */,
+				E2F5C0851649656600C18A33 /* DetailViewController.m in Sources */,
+				E297D70A164D4B7000DC8287 /* BorgenCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2F5C050164960F200C18A33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F5C064164960F200C18A33 /* BorgenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2F5C05B164960F200C18A33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2F5C01F164960F100C18A33 /* Borgen */;
+			targetProxy = E2F5C05A164960F200C18A33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E2F5C02D164960F200C18A33 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2F5C02E164960F200C18A33 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E2F5C04A164960F200C18A33 /* FirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2F5C04B164960F200C18A33 /* en */,
+			);
+			name = FirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		E2F5C04D164960F200C18A33 /* SecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2F5C04E164960F200C18A33 /* en */,
+			);
+			name = SecondViewController.xib;
+			sourceTree = "<group>";
+		};
+		E2F5C05F164960F200C18A33 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2F5C060164960F200C18A33 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2F5C065164960F200C18A33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E2F5C066164960F200C18A33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2F5C068164960F200C18A33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Borgen/Borgen-Prefix.pch";
+				INFOPLIST_FILE = "Borgen/Borgen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E2F5C069164960F200C18A33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Borgen/Borgen-Prefix.pch";
+				INFOPLIST_FILE = "Borgen/Borgen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E2F5C06B164960F200C18A33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Borgen.app/Borgen";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Borgen/Borgen-Prefix.pch";
+				INFOPLIST_FILE = "BorgenTests/BorgenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E2F5C06C164960F200C18A33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Borgen.app/Borgen";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Borgen/Borgen-Prefix.pch";
+				INFOPLIST_FILE = "BorgenTests/BorgenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2F5C01A164960F100C18A33 /* Build configuration list for PBXProject "Borgen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2F5C065164960F200C18A33 /* Debug */,
+				E2F5C066164960F200C18A33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2F5C067164960F200C18A33 /* Build configuration list for PBXNativeTarget "Borgen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2F5C068164960F200C18A33 /* Debug */,
+				E2F5C069164960F200C18A33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2F5C06A164960F200C18A33 /* Build configuration list for PBXNativeTarget "BorgenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2F5C06B164960F200C18A33 /* Debug */,
+				E2F5C06C164960F200C18A33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2F5C017164960F100C18A33 /* Project object */;
+}
