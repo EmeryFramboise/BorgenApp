@@ -12,9 +12,6 @@
 		E297D6FB164D431E00DC8287 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E297D6F9164D377700DC8287 /* Default.png */; };
 		E297D6FD164D434200DC8287 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E297D6FC164D434200DC8287 /* Default@2x.png */; };
 		E297D6FF164D435E00DC8287 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E297D6FE164D435E00DC8287 /* Default-568h@2x.png */; };
-		E297D703164D442200DC8287 /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = E297D700164D442200DC8287 /* launch.png */; };
-		E297D704164D442200DC8287 /* launch3gs.png in Resources */ = {isa = PBXBuildFile; fileRef = E297D701164D442200DC8287 /* launch3gs.png */; };
-		E297D705164D442200DC8287 /* launch5.png in Resources */ = {isa = PBXBuildFile; fileRef = E297D702164D442200DC8287 /* launch5.png */; };
 		E297D707164D49BC00DC8287 /* BorgenCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E297D706164D49BC00DC8287 /* BorgenCell.xib */; };
 		E297D70A164D4B7000DC8287 /* BorgenCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E297D709164D4B7000DC8287 /* BorgenCell.m */; };
 		E297D70C164DABE400DC8287 /* cellimage.png in Resources */ = {isa = PBXBuildFile; fileRef = E297D70B164DABE400DC8287 /* cellimage.png */; };
@@ -62,9 +59,6 @@
 		E297D6F9164D377700DC8287 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
 		E297D6FC164D434200DC8287 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
 		E297D6FE164D435E00DC8287 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
-		E297D700164D442200DC8287 /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
-		E297D701164D442200DC8287 /* launch3gs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch3gs.png; sourceTree = "<group>"; };
-		E297D702164D442200DC8287 /* launch5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch5.png; sourceTree = "<group>"; };
 		E297D706164D49BC00DC8287 /* BorgenCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BorgenCell.xib; sourceTree = "<group>"; };
 		E297D708164D4B6F00DC8287 /* BorgenCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BorgenCell.h; sourceTree = "<group>"; };
 		E297D709164D4B7000DC8287 /* BorgenCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BorgenCell.m; sourceTree = "<group>"; };
@@ -204,9 +198,6 @@
 				E2F5C02C164960F200C18A33 /* Borgen-Info.plist */,
 				E2F5C02D164960F200C18A33 /* InfoPlist.strings */,
 				E2F5C030164960F200C18A33 /* main.m */,
-				E297D700164D442200DC8287 /* launch.png */,
-				E297D701164D442200DC8287 /* launch3gs.png */,
-				E297D702164D442200DC8287 /* launch5.png */,
 				E2F5C032164960F200C18A33 /* Borgen-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -318,9 +309,6 @@
 				E297D6FB164D431E00DC8287 /* Default.png in Resources */,
 				E297D6FD164D434200DC8287 /* Default@2x.png in Resources */,
 				E297D6FF164D435E00DC8287 /* Default-568h@2x.png in Resources */,
-				E297D703164D442200DC8287 /* launch.png in Resources */,
-				E297D704164D442200DC8287 /* launch3gs.png in Resources */,
-				E297D705164D442200DC8287 /* launch5.png in Resources */,
 				E297D707164D49BC00DC8287 /* BorgenCell.xib in Resources */,
 				E297D70C164DABE400DC8287 /* cellimage.png in Resources */,
 				E297D70E164DABF800DC8287 /* cellimage@2x.png in Resources */,
