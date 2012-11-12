@@ -30,16 +30,19 @@
 {
     [super viewDidLoad];
     
+    
+    // Netwerk indicator laten zien als er gegevens worden opgehaald
     [UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
     
+    // JSON URL
     NSURL *url = [NSURL URLWithString:@"http://testing.rommeldetom.com/backendios/jsonlive.php"];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
     [[NSURLConnection alloc] initWithRequest:request delegate:self];
-	// Do any additional setup after loading the view, typically from a nib.
     
+    
+    // Custom titel voor de terugknop in de detail view
     self.navigationItem.backBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:@"Terug" style:UIBarButtonItemStyleBordered target:nil action:nil] autorelease];
-    
-    
+
 }
 
 - (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response
@@ -61,7 +64,7 @@
 
 - (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error
 {
-    UIAlertView *errorView = [[UIAlertView alloc] initWithTitle:@"Error" message:@"The download could not complete - please make sure you're connected to either 3G or Wi-Fi." delegate:nil cancelButtonTitle:@"Dismiss" otherButtonTitles:nil];
+    UIAlertView *errorView = [[UIAlertView alloc] initWithTitle:@"Error" message:@"Zorg ervoor dat u een internetverbinding heeft!" delegate:nil cancelButtonTitle:@"Dismiss" otherButtonTitles:nil];
     [errorView show];
     [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
 }
@@ -78,20 +81,23 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    // Initialiseren van custom table cell. 
     BorgenCell *cell = [tableView dequeueReusableCellWithIdentifier:@"BorgenCell"];
     
     if(cell == nil){
         NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"BorgenCell" owner:self options:nil];
         cell = [nib objectAtIndex:0];
     }
-
+    
+    // Naam, gemeente en thumbnail in de tableview.
     cell.naamLabel.text = [[self.news objectAtIndex:indexPath.row] objectForKey:@"naam"];
     cell.gemeenteLabel.text = [[self.news objectAtIndex:indexPath.row] objectForKey:@"gemeente"];
     cell.thumbnailImageView.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:[[self.news objectAtIndex:indexPath.row] objectForKey:@"foto"]]]];
     
-    
     return cell;
 }
+
+
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
@@ -104,18 +110,24 @@
     
 }
 
-
-
 - (void)viewDidUnload
 {
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
 
+// Hoogte van de custom cell
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 91;
+    return 67;
 }
 
+// Unselecteren van een cell bij terugkomen table view
+-(void) viewWillAppear:(BOOL)inAnimated {
+    NSIndexPath*    selection = [self.mainTableView indexPathForSelectedRow];
+    if (selection) {
+        [self.mainTableView deselectRowAtIndexPath:selection animated:YES];
+    }
+}
 
 @end
