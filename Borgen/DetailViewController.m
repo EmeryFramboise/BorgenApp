@@ -42,6 +42,11 @@
         self.detailImage.image = image;
     }
     
+    UIColor *background = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"paperios.png"]];
+    self.view.backgroundColor = background;
+    [background release];
+
+    
     
     
 }

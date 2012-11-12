@@ -93,7 +93,7 @@
     cell.naamLabel.text = [[self.news objectAtIndex:indexPath.row] objectForKey:@"naam"];
     cell.gemeenteLabel.text = [[self.news objectAtIndex:indexPath.row] objectForKey:@"gemeente"];
     cell.thumbnailImageView.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:[[self.news objectAtIndex:indexPath.row] objectForKey:@"foto"]]]];
-    
+
     return cell;
 }
 
