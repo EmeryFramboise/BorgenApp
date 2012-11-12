@@ -157,24 +157,13 @@
 		E2F5C02A164960F200C18A33 /* Borgen */ = {
 			isa = PBXGroup;
 			children = (
-				E2F5C033164960F200C18A33 /* AppDelegate.h */,
-				E2F5C034164960F200C18A33 /* AppDelegate.m */,
-				E2F5C03C164960F200C18A33 /* FirstViewController.h */,
-				E2F5C03D164960F200C18A33 /* FirstViewController.m */,
-				E2F5C043164960F200C18A33 /* SecondViewController.h */,
-				E2F5C044164960F200C18A33 /* SecondViewController.m */,
-				E2F5C0821649656500C18A33 /* DetailViewController.h */,
-				E2F5C0831649656600C18A33 /* DetailViewController.m */,
-				E2F5C0841649656600C18A33 /* DetailViewController.xib */,
-				E2F5C06D1649613000C18A33 /* ThirdViewController.h */,
-				E2F5C06E1649613000C18A33 /* ThirdViewController.m */,
-				E2F5C04A164960F200C18A33 /* FirstViewController.xib */,
-				E2F5C04D164960F200C18A33 /* SecondViewController.xib */,
-				E2F5C06F1649613000C18A33 /* ThirdViewController.xib */,
+				E2FA3A1116510487005D78A1 /* CameraView */,
+				E2FA3A101651046F005D78A1 /* AboutView */,
+				E2FA3A0F1651043D005D78A1 /* TableView */,
+				E2FA3A0E16510421005D78A1 /* DetailView */,
+				E2FA3A0D16510412005D78A1 /* Delegate */,
+				E2FA3A0A16510357005D78A1 /* Custom cell */,
 				E2F5C02B164960F200C18A33 /* Supporting Files */,
-				E297D706164D49BC00DC8287 /* BorgenCell.xib */,
-				E297D708164D4B6F00DC8287 /* BorgenCell.h */,
-				E297D709164D4B7000DC8287 /* BorgenCell.m */,
 			);
 			path = Borgen;
 			sourceTree = "<group>";
@@ -220,6 +209,65 @@
 				E2F5C05F164960F200C18A33 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E2FA3A0A16510357005D78A1 /* Custom cell */ = {
+			isa = PBXGroup;
+			children = (
+				E297D706164D49BC00DC8287 /* BorgenCell.xib */,
+				E297D708164D4B6F00DC8287 /* BorgenCell.h */,
+				E297D709164D4B7000DC8287 /* BorgenCell.m */,
+			);
+			name = "Custom cell";
+			sourceTree = "<group>";
+		};
+		E2FA3A0D16510412005D78A1 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				E2F5C033164960F200C18A33 /* AppDelegate.h */,
+				E2F5C034164960F200C18A33 /* AppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		E2FA3A0E16510421005D78A1 /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				E2F5C0821649656500C18A33 /* DetailViewController.h */,
+				E2F5C0831649656600C18A33 /* DetailViewController.m */,
+				E2F5C0841649656600C18A33 /* DetailViewController.xib */,
+			);
+			name = DetailView;
+			sourceTree = "<group>";
+		};
+		E2FA3A0F1651043D005D78A1 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				E2F5C043164960F200C18A33 /* SecondViewController.h */,
+				E2F5C044164960F200C18A33 /* SecondViewController.m */,
+				E2F5C04D164960F200C18A33 /* SecondViewController.xib */,
+			);
+			name = TableView;
+			sourceTree = "<group>";
+		};
+		E2FA3A101651046F005D78A1 /* AboutView */ = {
+			isa = PBXGroup;
+			children = (
+				E2F5C06D1649613000C18A33 /* ThirdViewController.h */,
+				E2F5C06E1649613000C18A33 /* ThirdViewController.m */,
+				E2F5C06F1649613000C18A33 /* ThirdViewController.xib */,
+			);
+			name = AboutView;
+			sourceTree = "<group>";
+		};
+		E2FA3A1116510487005D78A1 /* CameraView */ = {
+			isa = PBXGroup;
+			children = (
+				E2F5C03C164960F200C18A33 /* FirstViewController.h */,
+				E2F5C03D164960F200C18A33 /* FirstViewController.m */,
+				E2F5C04A164960F200C18A33 /* FirstViewController.xib */,
+			);
+			name = CameraView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -464,6 +512,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Borgen/Borgen-Prefix.pch";
 				INFOPLIST_FILE = "Borgen/Borgen-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -475,6 +524,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Borgen/Borgen-Prefix.pch";
 				INFOPLIST_FILE = "Borgen/Borgen-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
