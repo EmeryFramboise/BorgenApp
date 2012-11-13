@@ -18,4 +18,6 @@
 
 @property (strong, nonatomic) ViewController *viewController;
 
+-(void)customizeAppearance;
+
 @end

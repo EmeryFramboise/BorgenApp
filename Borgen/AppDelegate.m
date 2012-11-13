@@ -29,7 +29,9 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     
-    [[UINavigationBar appearance] setTintColor:[UIColor orangeColor]];
+    [self customizeAppearance];
+
+    [[UINavigationBar appearance] setTintColor:[UIColor clearColor]];
     
     // Override point for customization after application launch.
     UIViewController *viewController1 = [[[FirstViewController alloc] initWithNibName:@"FirstViewController" bundle:nil] autorelease];
@@ -42,11 +44,22 @@
     self.tabBarController = [[[UITabBarController alloc] init] autorelease];
     self.tabBarController.viewControllers = [NSArray arrayWithObjects:viewController1, navigationController, viewController3, nil];
     
+    // Custom tabbar met plaatjes
+    [[[self tabBarController] tabBar] setBackgroundImage:[UIImage imageNamed:@"customtabbar.png"]];
+    [[[self tabBarController] tabBar] setSelectionIndicatorImage:[UIImage imageNamed:@"customtabbarpressed.png"]];
+    
     self.window.rootViewController = self.tabBarController;
     
     [self.window makeKeyAndVisible];
     return YES;
 
+}
+
+-(void)customizeAppearance
+{
+    UIImage *customBackground = [UIImage imageNamed:@"titlebar2.png"];
+        
+    [[UINavigationBar appearance] setBackgroundImage:customBackground forBarMetrics:UIBarMetricsDefault];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

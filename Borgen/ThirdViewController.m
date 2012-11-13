@@ -30,6 +30,8 @@
     [webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://testing.rommeldetom.com/backendios/about.html"]]];
     [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(checkLoad) userInfo:nil repeats:YES];
     [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(checkNotLoad) userInfo:nil repeats:YES];
+    
+    
 }
 
 - (void)checkLoad{
@@ -49,5 +51,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 
 @end

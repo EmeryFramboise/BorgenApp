@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E25E636C16513CC7009732B6 /* paperios.png in Resources */ = {isa = PBXBuildFile; fileRef = E25E636B16513CC7009732B6 /* paperios.png */; };
+		E25E637D1651972A009732B6 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = E25E637C1651972A009732B6 /* background.png */; };
+		E25E638316519CB7009732B6 /* titlebar2.png in Resources */ = {isa = PBXBuildFile; fileRef = E25E638216519CB7009732B6 /* titlebar2.png */; };
 		E297D6F7164D353C00DC8287 /* app-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E297D6F5164D353C00DC8287 /* app-icon.png */; };
 		E297D6F8164D353C00DC8287 /* app-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E297D6F6164D353C00DC8287 /* app-icon@2x.png */; };
 		E297D6FB164D431E00DC8287 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E297D6F9164D377700DC8287 /* Default.png */; };
@@ -17,6 +18,8 @@
 		E297D70A164D4B7000DC8287 /* BorgenCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E297D709164D4B7000DC8287 /* BorgenCell.m */; };
 		E297D70C164DABE400DC8287 /* cellimage.png in Resources */ = {isa = PBXBuildFile; fileRef = E297D70B164DABE400DC8287 /* cellimage.png */; };
 		E297D70E164DABF800DC8287 /* cellimage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E297D70D164DABF700DC8287 /* cellimage@2x.png */; };
+		E2DCB8C31652696000FB6E86 /* customtabbar.png in Resources */ = {isa = PBXBuildFile; fileRef = E2DCB8C21652696000FB6E86 /* customtabbar.png */; };
+		E2DCB8C5165269D400FB6E86 /* customtabbarpressed.png in Resources */ = {isa = PBXBuildFile; fileRef = E2DCB8C4165269D400FB6E86 /* customtabbarpressed.png */; };
 		E2F5C025164960F100C18A33 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F5C024164960F100C18A33 /* UIKit.framework */; };
 		E2F5C027164960F100C18A33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F5C026164960F100C18A33 /* Foundation.framework */; };
 		E2F5C029164960F100C18A33 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F5C028164960F100C18A33 /* CoreGraphics.framework */; };
@@ -55,7 +58,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E25E636B16513CC7009732B6 /* paperios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paperios.png; sourceTree = "<group>"; };
+		E25E637C1651972A009732B6 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		E25E638216519CB7009732B6 /* titlebar2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = titlebar2.png; sourceTree = "<group>"; };
 		E297D6F5164D353C00DC8287 /* app-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon.png"; sourceTree = "<group>"; };
 		E297D6F6164D353C00DC8287 /* app-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon@2x.png"; sourceTree = "<group>"; };
 		E297D6F9164D377700DC8287 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 		E297D709164D4B7000DC8287 /* BorgenCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BorgenCell.m; sourceTree = "<group>"; };
 		E297D70B164DABE400DC8287 /* cellimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cellimage.png; sourceTree = "<group>"; };
 		E297D70D164DABF700DC8287 /* cellimage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cellimage@2x.png"; sourceTree = "<group>"; };
+		E2DCB8C21652696000FB6E86 /* customtabbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = customtabbar.png; sourceTree = "<group>"; };
+		E2DCB8C4165269D400FB6E86 /* customtabbarpressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = customtabbarpressed.png; sourceTree = "<group>"; };
 		E2F5C020164960F100C18A33 /* Borgen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Borgen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2F5C024164960F100C18A33 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E2F5C026164960F100C18A33 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -177,10 +183,13 @@
 				E297D6FE164D435E00DC8287 /* Default-568h@2x.png */,
 				E297D6FC164D434200DC8287 /* Default@2x.png */,
 				E297D70D164DABF700DC8287 /* cellimage@2x.png */,
+				E2DCB8C21652696000FB6E86 /* customtabbar.png */,
 				E297D6F9164D377700DC8287 /* Default.png */,
-				E25E636B16513CC7009732B6 /* paperios.png */,
 				E2F5C072164961BB00C18A33 /* third.png */,
+				E25E637C1651972A009732B6 /* background.png */,
+				E2DCB8C4165269D400FB6E86 /* customtabbarpressed.png */,
 				E2F5C073164961BC00C18A33 /* third@2x.png */,
+				E25E638216519CB7009732B6 /* titlebar2.png */,
 				E2F5C0761649632800C18A33 /* camera.png */,
 				E297D6F5164D353C00DC8287 /* app-icon.png */,
 				E297D6F6164D353C00DC8287 /* app-icon@2x.png */,
@@ -363,7 +372,10 @@
 				E297D707164D49BC00DC8287 /* BorgenCell.xib in Resources */,
 				E297D70C164DABE400DC8287 /* cellimage.png in Resources */,
 				E297D70E164DABF800DC8287 /* cellimage@2x.png in Resources */,
-				E25E636C16513CC7009732B6 /* paperios.png in Resources */,
+				E25E637D1651972A009732B6 /* background.png in Resources */,
+				E25E638316519CB7009732B6 /* titlebar2.png in Resources */,
+				E2DCB8C31652696000FB6E86 /* customtabbar.png in Resources */,
+				E2DCB8C5165269D400FB6E86 /* customtabbarpressed.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

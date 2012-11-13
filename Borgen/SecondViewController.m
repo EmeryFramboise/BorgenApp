@@ -21,7 +21,9 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         self.title = NSLocalizedString(@"Alle Borgen", @"Alle Borgen");
+//        self.title = [UIFont fontWithName:@"AmericanTypewriter-Bold" size:16];
         self.tabBarItem.image = [UIImage imageNamed:@"list"];
+    
     }
     return self;
 }
@@ -41,7 +43,7 @@
     
     
     // Custom titel voor de terugknop in de detail view
-    self.navigationItem.backBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:@"Terug" style:UIBarButtonItemStyleBordered target:nil action:nil] autorelease];
+    self.navigationItem.backBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:@" " style:UIBarButtonItemStyleBordered target:nil action:nil] autorelease];
 
 }
 
@@ -92,7 +94,10 @@
     // Naam, gemeente en thumbnail in de tableview.
     cell.naamLabel.text = [[self.news objectAtIndex:indexPath.row] objectForKey:@"naam"];
     cell.gemeenteLabel.text = [[self.news objectAtIndex:indexPath.row] objectForKey:@"gemeente"];
+    
     cell.thumbnailImageView.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:[[self.news objectAtIndex:indexPath.row] objectForKey:@"foto"]]]];
+    
+    
 
     return cell;
 }
@@ -106,8 +111,7 @@
     detailViewController.title = [[self.news objectAtIndex:indexPath.row] objectForKey:@"naam"];
     [self.navigationController pushViewController:detailViewController animated:YES];
 
-    [detailViewController release];
-    
+    [detailViewController release];    
 }
 
 - (void)viewDidUnload
@@ -119,15 +123,29 @@
 // Hoogte van de custom cell
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 67;
+    return 52;
 }
 
 // Unselecteren van een cell bij terugkomen table view
--(void) viewWillAppear:(BOOL)inAnimated {
+-(void) viewWillAppear:(BOOL)inAnimated
+{
     NSIndexPath*    selection = [self.mainTableView indexPathForSelectedRow];
     if (selection) {
         [self.mainTableView deselectRowAtIndexPath:selection animated:YES];
     }
+    
+    CGRect frame = CGRectMake(0, 0, 400, 44);
+    UILabel *label = [[[UILabel alloc] initWithFrame:frame] autorelease];
+    label.backgroundColor = [UIColor clearColor];
+    label.font = [UIFont fontWithName:@"AmericanTypewriter-Bold" size:18];
+    label.textAlignment = UITextAlignmentCenter;
+    label.textColor = [UIColor whiteColor];
+    label.text = self.navigationItem.title;
+    // emboss in the same way as the native title
+    [label setShadowColor:[UIColor darkGrayColor]];
+    [label setShadowOffset:CGSizeMake(0, -0.5)];
+    self.navigationItem.titleView = label;
 }
+
 
 @end
