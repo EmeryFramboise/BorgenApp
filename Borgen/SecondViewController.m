@@ -9,6 +9,7 @@
 #import "SecondViewController.h"
 #import "DetailViewController.h"
 #import "BorgenCell.h"
+ #import <QuartzCore/QuartzCore.h>
 
 @interface SecondViewController ()
 
@@ -21,17 +22,15 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         self.title = NSLocalizedString(@"Alle Borgen", @"Alle Borgen");
-//        self.title = [UIFont fontWithName:@"AmericanTypewriter-Bold" size:16];
-        self.tabBarItem.image = [UIImage imageNamed:@"list"];
+        self.tabBarItem.image = [UIImage imageNamed:@"list@2x"];
     
     }
     return self;
 }
-							
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
     
     // Netwerk indicator laten zien als er gegevens worden opgehaald
     [UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
@@ -43,7 +42,7 @@
     
     
     // Custom titel voor de terugknop in de detail view
-    self.navigationItem.backBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:@" " style:UIBarButtonItemStyleBordered target:nil action:nil] autorelease];
+    self.navigationItem.backBarButtonItem = [[[UIBarButtonItem alloc] initWithTitle:@"Terug" style:UIBarButtonItemStyleBordered target:nil action:nil] autorelease];
 
 }
 
@@ -60,8 +59,10 @@
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection
 {
     [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
+
     self.news = [NSJSONSerialization JSONObjectWithData:self.data options:0 error:nil];
     [self.mainTableView reloadData];
+
 }
 
 - (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error
@@ -94,14 +95,15 @@
     // Naam, gemeente en thumbnail in de tableview.
     cell.naamLabel.text = [[self.news objectAtIndex:indexPath.row] objectForKey:@"naam"];
     cell.gemeenteLabel.text = [[self.news objectAtIndex:indexPath.row] objectForKey:@"gemeente"];
+    cell.thumbnailImageView.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:[[self.news objectAtIndex:indexPath.row] objectForKey:@"thumbs"]]]];
     
-    cell.thumbnailImageView.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:[[self.news objectAtIndex:indexPath.row] objectForKey:@"foto"]]]];
-    
-    
+    //Ronde hoeken op de plaatjes.
+    cell.thumbnailImageView.layer.masksToBounds = YES;
+    cell.thumbnailImageView.layer.cornerRadius = 5.0;
+
 
     return cell;
 }
-
 
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
@@ -129,11 +131,14 @@
 // Unselecteren van een cell bij terugkomen table view
 -(void) viewWillAppear:(BOOL)inAnimated
 {
+
+    
     NSIndexPath*    selection = [self.mainTableView indexPathForSelectedRow];
     if (selection) {
         [self.mainTableView deselectRowAtIndexPath:selection animated:YES];
     }
     
+    //Stijl van de titel veranderen.
     CGRect frame = CGRectMake(0, 0, 400, 44);
     UILabel *label = [[[UILabel alloc] initWithFrame:frame] autorelease];
     label.backgroundColor = [UIColor clearColor];
@@ -145,6 +150,12 @@
     [label setShadowColor:[UIColor darkGrayColor]];
     [label setShadowOffset:CGSizeMake(0, -0.5)];
     self.navigationItem.titleView = label;
+    
+
+}
+
+- (void)viewDidBecomeActive:(UIApplication *)application{
+
 }
 
 

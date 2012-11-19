@@ -27,11 +27,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     
     [self customizeAppearance];
 
     [[UINavigationBar appearance] setTintColor:[UIColor clearColor]];
+    
+
     
     // Override point for customization after application launch.
     UIViewController *viewController1 = [[[FirstViewController alloc] initWithNibName:@"FirstViewController" bundle:nil] autorelease];
@@ -51,6 +54,9 @@
     self.window.rootViewController = self.tabBarController;
     
     [self.window makeKeyAndVisible];
+    
+
+    
     return YES;
 
 }
@@ -60,7 +66,18 @@
     UIImage *customBackground = [UIImage imageNamed:@"titlebar2.png"];
         
     [[UINavigationBar appearance] setBackgroundImage:customBackground forBarMetrics:UIBarMetricsDefault];
+    
+    NSMutableDictionary *titleBarAttributes = [NSMutableDictionary dictionaryWithDictionary: [[UINavigationBar appearance] titleTextAttributes]];
+    [titleBarAttributes setValue:[UIFont fontWithName:@"AmericanTypewriter-Bold" size:18] forKey:UITextAttributeFont];
+    [[UINavigationBar appearance] setTitleTextAttributes:titleBarAttributes];
+    
+    NSMutableDictionary *attributes = [NSMutableDictionary dictionaryWithDictionary: [[UIBarButtonItem appearance] titleTextAttributesForState:UIControlStateNormal]];
+    [attributes setValue:[UIFont fontWithName:@"HelveticaNeue-Bold" size:12] forKey:UITextAttributeFont];
+    [[UIBarButtonItem appearance] setTitleTextAttributes:attributes forState:UIControlStateNormal];
+    
 }
+
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
@@ -81,13 +98,15 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+
 
 /*
 // Optional UITabBarControllerDelegate method.

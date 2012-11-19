@@ -18,8 +18,25 @@
 		E297D70A164D4B7000DC8287 /* BorgenCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E297D709164D4B7000DC8287 /* BorgenCell.m */; };
 		E297D70C164DABE400DC8287 /* cellimage.png in Resources */ = {isa = PBXBuildFile; fileRef = E297D70B164DABE400DC8287 /* cellimage.png */; };
 		E297D70E164DABF800DC8287 /* cellimage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E297D70D164DABF700DC8287 /* cellimage@2x.png */; };
+		E2AF44FC165319D50007DD79 /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = E2AF44FA165319D50007DD79 /* location.png */; };
+		E2AF44FD165319D50007DD79 /* location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2AF44FB165319D50007DD79 /* location@2x.png */; };
+		E2AF450416531E720007DD79 /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AF450316531E720007DD79 /* Annotation.m */; };
 		E2DCB8C31652696000FB6E86 /* customtabbar.png in Resources */ = {isa = PBXBuildFile; fileRef = E2DCB8C21652696000FB6E86 /* customtabbar.png */; };
 		E2DCB8C5165269D400FB6E86 /* customtabbarpressed.png in Resources */ = {isa = PBXBuildFile; fileRef = E2DCB8C4165269D400FB6E86 /* customtabbarpressed.png */; };
+		E2DCB8C81652929900FB6E86 /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = E2DCB8C61652929900FB6E86 /* list.png */; };
+		E2DCB8C91652929900FB6E86 /* list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2DCB8C71652929900FB6E86 /* list@2x.png */; };
+		E2DCB8CC165292CA00FB6E86 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = E2DCB8CA165292CA00FB6E86 /* camera.png */; };
+		E2DCB8CD165292CA00FB6E86 /* camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2DCB8CB165292CA00FB6E86 /* camera@2x.png */; };
+		E2DCB8D01652936D00FB6E86 /* third.png in Resources */ = {isa = PBXBuildFile; fileRef = E2DCB8CE1652936D00FB6E86 /* third.png */; };
+		E2DCB8D11652936D00FB6E86 /* third@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2DCB8CF1652936D00FB6E86 /* third@2x.png */; };
+		E2DCB8D6165293F600FB6E86 /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = E2DCB8D2165293F600FB6E86 /* about.png */; };
+		E2DCB8D7165293F600FB6E86 /* about@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2DCB8D3165293F600FB6E86 /* about@2x.png */; };
+		E2DCB8D8165293F600FB6E86 /* cameraview.png in Resources */ = {isa = PBXBuildFile; fileRef = E2DCB8D4165293F600FB6E86 /* cameraview.png */; };
+		E2DCB8D9165293F600FB6E86 /* cameraview@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2DCB8D5165293F600FB6E86 /* cameraview@2x.png */; };
+		E2DCB8DC1652943C00FB6E86 /* alleborgen.png in Resources */ = {isa = PBXBuildFile; fileRef = E2DCB8DA1652943C00FB6E86 /* alleborgen.png */; };
+		E2DCB8DD1652943C00FB6E86 /* alleborgen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2DCB8DB1652943C00FB6E86 /* alleborgen@2x.png */; };
+		E2DCB8DF1652FA8F00FB6E86 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2DCB8DE1652FA8F00FB6E86 /* CoreLocation.framework */; };
+		E2DCB8E11652FA9400FB6E86 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2DCB8E01652FA9400FB6E86 /* MapKit.framework */; };
 		E2F5C025164960F100C18A33 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F5C024164960F100C18A33 /* UIKit.framework */; };
 		E2F5C027164960F100C18A33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F5C026164960F100C18A33 /* Foundation.framework */; };
 		E2F5C029164960F100C18A33 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2F5C028164960F100C18A33 /* CoreGraphics.framework */; };
@@ -37,12 +54,6 @@
 		E2F5C064164960F200C18A33 /* BorgenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F5C063164960F200C18A33 /* BorgenTests.m */; };
 		E2F5C0701649613000C18A33 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F5C06E1649613000C18A33 /* ThirdViewController.m */; };
 		E2F5C0711649613000C18A33 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2F5C06F1649613000C18A33 /* ThirdViewController.xib */; };
-		E2F5C074164961BC00C18A33 /* third.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F5C072164961BB00C18A33 /* third.png */; };
-		E2F5C075164961BC00C18A33 /* third@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F5C073164961BC00C18A33 /* third@2x.png */; };
-		E2F5C0781649632800C18A33 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F5C0761649632800C18A33 /* camera.png */; };
-		E2F5C0791649632800C18A33 /* camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F5C0771649632800C18A33 /* camera@2x.png */; };
-		E2F5C07C1649635F00C18A33 /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F5C07A1649635F00C18A33 /* list.png */; };
-		E2F5C07D1649635F00C18A33 /* list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F5C07B1649635F00C18A33 /* list@2x.png */; };
 		E2F5C0851649656600C18A33 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F5C0831649656600C18A33 /* DetailViewController.m */; };
 		E2F5C0861649656600C18A33 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2F5C0841649656600C18A33 /* DetailViewController.xib */; };
 /* End PBXBuildFile section */
@@ -70,8 +81,26 @@
 		E297D709164D4B7000DC8287 /* BorgenCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BorgenCell.m; sourceTree = "<group>"; };
 		E297D70B164DABE400DC8287 /* cellimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cellimage.png; sourceTree = "<group>"; };
 		E297D70D164DABF700DC8287 /* cellimage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cellimage@2x.png"; sourceTree = "<group>"; };
+		E2AF44FA165319D50007DD79 /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = location.png; path = "../../../Downloads/glypishpro/Glyphish Pro/icons/location.png"; sourceTree = "<group>"; };
+		E2AF44FB165319D50007DD79 /* location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "location@2x.png"; path = "../../../Downloads/glypishpro/Glyphish Pro/icons/location@2x.png"; sourceTree = "<group>"; };
+		E2AF450216531E720007DD79 /* Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annotation.h; sourceTree = "<group>"; };
+		E2AF450316531E720007DD79 /* Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Annotation.m; sourceTree = "<group>"; };
 		E2DCB8C21652696000FB6E86 /* customtabbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = customtabbar.png; sourceTree = "<group>"; };
 		E2DCB8C4165269D400FB6E86 /* customtabbarpressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = customtabbarpressed.png; sourceTree = "<group>"; };
+		E2DCB8C61652929900FB6E86 /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
+		E2DCB8C71652929900FB6E86 /* list@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list@2x.png"; sourceTree = "<group>"; };
+		E2DCB8CA165292CA00FB6E86 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		E2DCB8CB165292CA00FB6E86 /* camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera@2x.png"; sourceTree = "<group>"; };
+		E2DCB8CE1652936D00FB6E86 /* third.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = third.png; sourceTree = "<group>"; };
+		E2DCB8CF1652936D00FB6E86 /* third@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "third@2x.png"; sourceTree = "<group>"; };
+		E2DCB8D2165293F600FB6E86 /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about.png; sourceTree = "<group>"; };
+		E2DCB8D3165293F600FB6E86 /* about@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about@2x.png"; sourceTree = "<group>"; };
+		E2DCB8D4165293F600FB6E86 /* cameraview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cameraview.png; sourceTree = "<group>"; };
+		E2DCB8D5165293F600FB6E86 /* cameraview@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cameraview@2x.png"; sourceTree = "<group>"; };
+		E2DCB8DA1652943C00FB6E86 /* alleborgen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alleborgen.png; sourceTree = "<group>"; };
+		E2DCB8DB1652943C00FB6E86 /* alleborgen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alleborgen@2x.png"; sourceTree = "<group>"; };
+		E2DCB8DE1652FA8F00FB6E86 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E2DCB8E01652FA9400FB6E86 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		E2F5C020164960F100C18A33 /* Borgen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Borgen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2F5C024164960F100C18A33 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E2F5C026164960F100C18A33 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -97,12 +126,6 @@
 		E2F5C06D1649613000C18A33 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		E2F5C06E1649613000C18A33 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		E2F5C06F1649613000C18A33 /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
-		E2F5C072164961BB00C18A33 /* third.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = third.png; path = ../../third.png; sourceTree = "<group>"; };
-		E2F5C073164961BC00C18A33 /* third@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "third@2x.png"; path = "../../third@2x.png"; sourceTree = "<group>"; };
-		E2F5C0761649632800C18A33 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
-		E2F5C0771649632800C18A33 /* camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera@2x.png"; sourceTree = "<group>"; };
-		E2F5C07A1649635F00C18A33 /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
-		E2F5C07B1649635F00C18A33 /* list@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list@2x.png"; sourceTree = "<group>"; };
 		E2F5C0821649656500C18A33 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		E2F5C0831649656600C18A33 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		E2F5C0841649656600C18A33 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
@@ -113,6 +136,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2DCB8E11652FA9400FB6E86 /* MapKit.framework in Frameworks */,
+				E2DCB8DF1652FA8F00FB6E86 /* CoreLocation.framework in Frameworks */,
 				E2F5C025164960F100C18A33 /* UIKit.framework in Frameworks */,
 				E2F5C027164960F100C18A33 /* Foundation.framework in Frameworks */,
 				E2F5C029164960F100C18A33 /* CoreGraphics.framework in Frameworks */,
@@ -154,6 +179,8 @@
 		E2F5C023164960F100C18A33 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E2DCB8E01652FA9400FB6E86 /* MapKit.framework */,
+				E2DCB8DE1652FA8F00FB6E86 /* CoreLocation.framework */,
 				E2F5C024164960F100C18A33 /* UIKit.framework */,
 				E2F5C026164960F100C18A33 /* Foundation.framework */,
 				E2F5C028164960F100C18A33 /* CoreGraphics.framework */,
@@ -179,23 +206,31 @@
 		E2F5C02B164960F200C18A33 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E2AF44FA165319D50007DD79 /* location.png */,
+				E2AF44FB165319D50007DD79 /* location@2x.png */,
 				E297D70B164DABE400DC8287 /* cellimage.png */,
 				E297D6FE164D435E00DC8287 /* Default-568h@2x.png */,
 				E297D6FC164D434200DC8287 /* Default@2x.png */,
 				E297D70D164DABF700DC8287 /* cellimage@2x.png */,
 				E2DCB8C21652696000FB6E86 /* customtabbar.png */,
 				E297D6F9164D377700DC8287 /* Default.png */,
-				E2F5C072164961BB00C18A33 /* third.png */,
 				E25E637C1651972A009732B6 /* background.png */,
 				E2DCB8C4165269D400FB6E86 /* customtabbarpressed.png */,
-				E2F5C073164961BC00C18A33 /* third@2x.png */,
 				E25E638216519CB7009732B6 /* titlebar2.png */,
-				E2F5C0761649632800C18A33 /* camera.png */,
+				E2DCB8CA165292CA00FB6E86 /* camera.png */,
+				E2DCB8D2165293F600FB6E86 /* about.png */,
+				E2DCB8D3165293F600FB6E86 /* about@2x.png */,
+				E2DCB8DA1652943C00FB6E86 /* alleborgen.png */,
+				E2DCB8DB1652943C00FB6E86 /* alleborgen@2x.png */,
+				E2DCB8D4165293F600FB6E86 /* cameraview.png */,
+				E2DCB8D5165293F600FB6E86 /* cameraview@2x.png */,
+				E2DCB8CB165292CA00FB6E86 /* camera@2x.png */,
+				E2DCB8C61652929900FB6E86 /* list.png */,
+				E2DCB8C71652929900FB6E86 /* list@2x.png */,
+				E2DCB8CE1652936D00FB6E86 /* third.png */,
+				E2DCB8CF1652936D00FB6E86 /* third@2x.png */,
 				E297D6F5164D353C00DC8287 /* app-icon.png */,
 				E297D6F6164D353C00DC8287 /* app-icon@2x.png */,
-				E2F5C0771649632800C18A33 /* camera@2x.png */,
-				E2F5C07A1649635F00C18A33 /* list.png */,
-				E2F5C07B1649635F00C18A33 /* list@2x.png */,
 				E2F5C02C164960F200C18A33 /* Borgen-Info.plist */,
 				E2F5C02D164960F200C18A33 /* InfoPlist.strings */,
 				E2F5C030164960F200C18A33 /* main.m */,
@@ -278,6 +313,8 @@
 				E2F5C03C164960F200C18A33 /* FirstViewController.h */,
 				E2F5C03D164960F200C18A33 /* FirstViewController.m */,
 				E2F5C04A164960F200C18A33 /* FirstViewController.xib */,
+				E2AF450216531E720007DD79 /* Annotation.h */,
+				E2AF450316531E720007DD79 /* Annotation.m */,
 			);
 			name = CameraView;
 			sourceTree = "<group>";
@@ -357,12 +394,6 @@
 				E2F5C04C164960F200C18A33 /* FirstViewController.xib in Resources */,
 				E2F5C04F164960F200C18A33 /* SecondViewController.xib in Resources */,
 				E2F5C0711649613000C18A33 /* ThirdViewController.xib in Resources */,
-				E2F5C074164961BC00C18A33 /* third.png in Resources */,
-				E2F5C075164961BC00C18A33 /* third@2x.png in Resources */,
-				E2F5C0781649632800C18A33 /* camera.png in Resources */,
-				E2F5C0791649632800C18A33 /* camera@2x.png in Resources */,
-				E2F5C07C1649635F00C18A33 /* list.png in Resources */,
-				E2F5C07D1649635F00C18A33 /* list@2x.png in Resources */,
 				E2F5C0861649656600C18A33 /* DetailViewController.xib in Resources */,
 				E297D6F7164D353C00DC8287 /* app-icon.png in Resources */,
 				E297D6F8164D353C00DC8287 /* app-icon@2x.png in Resources */,
@@ -376,6 +407,20 @@
 				E25E638316519CB7009732B6 /* titlebar2.png in Resources */,
 				E2DCB8C31652696000FB6E86 /* customtabbar.png in Resources */,
 				E2DCB8C5165269D400FB6E86 /* customtabbarpressed.png in Resources */,
+				E2DCB8C81652929900FB6E86 /* list.png in Resources */,
+				E2DCB8C91652929900FB6E86 /* list@2x.png in Resources */,
+				E2DCB8CC165292CA00FB6E86 /* camera.png in Resources */,
+				E2DCB8CD165292CA00FB6E86 /* camera@2x.png in Resources */,
+				E2DCB8D01652936D00FB6E86 /* third.png in Resources */,
+				E2DCB8D11652936D00FB6E86 /* third@2x.png in Resources */,
+				E2DCB8D6165293F600FB6E86 /* about.png in Resources */,
+				E2DCB8D7165293F600FB6E86 /* about@2x.png in Resources */,
+				E2DCB8D8165293F600FB6E86 /* cameraview.png in Resources */,
+				E2DCB8D9165293F600FB6E86 /* cameraview@2x.png in Resources */,
+				E2DCB8DC1652943C00FB6E86 /* alleborgen.png in Resources */,
+				E2DCB8DD1652943C00FB6E86 /* alleborgen@2x.png in Resources */,
+				E2AF44FC165319D50007DD79 /* location.png in Resources */,
+				E2AF44FD165319D50007DD79 /* location@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +462,7 @@
 				E2F5C0701649613000C18A33 /* ThirdViewController.m in Sources */,
 				E2F5C0851649656600C18A33 /* DetailViewController.m in Sources */,
 				E297D70A164D4B7000DC8287 /* BorgenCell.m in Sources */,
+				E2AF450416531E720007DD79 /* Annotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

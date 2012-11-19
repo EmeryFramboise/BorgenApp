@@ -20,6 +20,7 @@
     if (self) {
         self.title = NSLocalizedString(@"Over Ons", @"Over Ons");
         self.tabBarItem.image = [UIImage imageNamed:@"third"];
+        
     }
     return self;
 }
@@ -32,6 +33,7 @@
     [NSTimer scheduledTimerWithTimeInterval:1.0 target:self selector:@selector(checkNotLoad) userInfo:nil repeats:YES];
     
     
+
 }
 
 - (void)checkLoad{
@@ -51,7 +53,5 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-
 
 @end
